@@ -1,0 +1,174 @@
+text {
+  fill: var(--color-font);
+}
+
+.bar {
+  fill: var(--color-bar);
+}
+
+.goldenAge {
+  stroke-width: 1.3px;
+  stroke: var(--color-gold);
+}
+
+.goldenAge--start {
+  stroke-width: 1.3px;
+  stroke: var(--color-guide-light);
+}
+
+.goldenAge--end {
+  stroke-width: 1.3px;
+  stroke-dasharray: 3;
+  stroke: var(--color-guide);
+}
+
+.goldenAge--peak {
+  r: 3px;
+  fill: white;
+  stroke-width: 2px;
+  stroke: var(--color-age-circle);
+}
+
+.goldenAge--decline {
+  r: 4px;
+  fill: var(--color-age-circle);
+}
+
+.guide {
+  fill: none;
+  stroke-dasharray: 2 2;
+  stroke: var(--color-guide);
+  stroke-opacity: 0.5;
+}
+.guideStrong {
+  stroke: var(--color-font);
+}
+.rGuideLabel {
+  font-size: 12px;
+  alignment-baseline: over;
+  text-anchor: middle;
+}
+.rGuideArrow {
+  fill: var(--color-guide);
+}
+
+.iconBg {
+  r: 9px;
+  fill: var(--color-age-circle);
+}
+
+.icon {
+  fill: var(--color-icon);
+}
+
+.autocracy {
+  fill: var(--color-autocracy);
+}
+
+.bureaucracy {
+  fill: var(--color-bureaucracy);
+}
+
+.monarchy {
+  fill: var(--color-monarchy);
+}
+
+.stratocracy {
+  fill: var(--color-stratocracy);
+}
+
+.theocracy {
+  fill: var(--color-theocracy);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.typeGovLegend {
+  font-size: 14px;
+}
+
+.govTypeLegendValues {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.collapseLegend {
+  font-size: 14px;
+}
+
+.collaseLegendValues text {
+  font-size: 12px;
+}
+
+.empireSize {
+  font-size: 12px;
+}
+
+.empireSize .em1 {
+  font-size: 16px;
+}
+.empireSize .em2 {
+  font-size: 22px;
+}
+
+.durationLegendText {
+  font-size: 12px;
+  alignment-baseline: middle;
+  text-anchor: middle;
+}
+
+.goldenAgeLegendText {
+  font-size: 10px;
+  font-weight: 500;
+  fill: var(--color-gold);
+  alignment-baseline: middle;
+  text-anchor: middle;
+}
+
+.goldenAge--label text {
+  font-size: 10px;
+  alignment-baseline: middle;
+  text-anchor: middle;
+}
+
+.radialAxisLabel {
+  font-size: 11px;
+  font-weight: 500;
+  alignment-baseline: middle;
+  fill: var(--color-font-light);
+}
+
+.ageLabel {
+  font-size: 12px;
+  alignment-baseline: hanging;
+}
+
+.goldenAxisLine {
+  stroke-width: 1.3px;
+  stroke: var(--color-guide-light);
+}
+
+.goldenAgeAxisLabel {
+  font-size: 11px;
+  font-weight: 500;
+  alignment-baseline: middle;
+  fill: var(--color-font-light);
+}
+
+.averageText {
+  font-size: 11px;
+  alignment-baseline: middle;
+  fill: var(--color-font-light);
+}
+
+.hiddenBox {
+  fill: var(--color-bg);
+}
